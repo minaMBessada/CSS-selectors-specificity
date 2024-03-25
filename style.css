@@ -1,0 +1,151 @@
+/* start header */
+.logo {
+  width: 60px;
+}
+a {
+  color: darkcyan;
+  font-size: 25px;
+}
+
+a:hover {
+  color: rgb(1, 75, 75);
+  font-size: 28px;
+}
+
+#active {
+  color: darkturquoise;
+  font-size: 28px;
+}
+
+#active:hover {
+  color: rgb(1, 122, 124);
+  font-size: 32px;
+}
+/* End header */
+p {
+  color: rgb(80, 53, 53);
+}
+
+h2 {
+  color: grey;
+  font-size: 35px;
+}
+section {
+  width: 100%;
+}
+
+span {
+  color: black;
+}
+
+/* start home section*/
+.home {
+  width: 800px;
+}
+
+.container {
+  color: blue;
+}
+
+.home-header {
+  color: purple;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.container p {
+  color: rgb(160, 29, 123);
+}
+
+.container p::first-letter {
+  color: rgb(124, 124, 196);
+  font-size: 30px;
+}
+
+.container span {
+  color: rgb(48, 48, 63);
+  font-weight: bold;
+}
+/* End home section */
+/* Start about section */
+h4 {
+  color: rgb(91, 84, 84);
+  font-size: 25px;
+}
+
+li {
+  color: rgb(60, 81, 81);
+  font-size: 18px;
+}
+
+#major {
+  color: rgb(101, 135, 135);
+  font-size: 22px;
+}
+
+li:hover {
+  color: limegreen;
+}
+
+#major:hover {
+  color: rgb(143, 235, 39);
+  font-size: 26px;
+}
+/* End about section */
+/* start contact section */
+.social,
+.contact {
+  margin: 20px;
+}
+
+.social a,
+.contact a {
+  color: turquoise;
+  font-size: 30px;
+  margin: 10px;
+}
+
+.social a:hover,
+.contact a:hover {
+  color: rgb(22, 82, 156);
+  font-size: 40px;
+}
+/* end contact section */
+/* start form */
+label {
+  color: rgb(39, 38, 38);
+  font-size: 16px;
+  font-weight: bold;
+}
+
+input {
+  margin: 8px;
+}
+input[type="text"] {
+  color: blue;
+}
+
+input[type="email"] {
+  color: red;
+}
+
+input[type="submit"] {
+  width: 80px;
+}
+
+input[type="submit"]:hover {
+  font-size: larger;
+  color: purple;
+  width: 100px;
+}
+/* end form */
+/* start footer */
+div p {
+  font-size: 16px;
+}
+div p span {
+  color: rgb(35, 128, 128) !important;
+  font-size: 16px;
+  font-weight: bold;
+}
+/* end footer */
